@@ -1,0 +1,26 @@
+#score_board{
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+#game_board{
+    width: 500px;
+    height: 500px;
+}
+
+.fields{
+    position: relative;
+    width: 33%;
+    height: 33%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.fields:disabled{
+    background-color: white;
+    color: black;
+}
+
+#start{
+    margin-top: 10px;
+}
